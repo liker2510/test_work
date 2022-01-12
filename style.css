@@ -6,8 +6,6 @@
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     padding: 10px 20px;
     cursor: pointer;
-    opacity: 1;
-    transition: opacity 1s; 
 }
 .text_decoration:hover {
     border: 2px solid gray;
@@ -15,5 +13,6 @@
     color: white;
 }
 .text_decoration.click {
-    opacity: 0;
+    
+    visibility: hidden;
 }
